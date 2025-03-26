@@ -3,6 +3,7 @@ from perro import Perro
 from gato import Gato
 from ave import Ave
 from murcielago import Murcielago
+from peces import Peces
 
 def main():
     leon = Animal("Leon", 5)
@@ -18,9 +19,12 @@ def main():
     ave = Ave("Piolin", 8)
     ave.hacer_sonido()
 
-    dracula = Murcielago("Draculo", 100, "Vampiro")
+    dracula = Murcielago("Dragculo", 100, "Vampiro")
     dracula.hacer_sonido()
     dracula.soy_un()
+
+    ballena = Peces("Ballena Gris", 30, "Dulce")
+    ballena.hacer_sonido()
 
 
 if __name__ == '__main__':

@@ -7,4 +7,4 @@ class Perro(Animal):
 
     def hacer_sonido(self):
         #print(f'{self.nombre} esta ladrando')
-        print("Guau! 🐕‍🦺")
+        print("Guau! 🐕")
