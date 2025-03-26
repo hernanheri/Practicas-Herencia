@@ -23,8 +23,8 @@ def main():
     dracula.hacer_sonido()
     dracula.soy_un()
 
-    ballena = Peces("Ballena Gris", 30, "Dulce")
-    ballena.hacer_sonido()
+    Dory = Peces("Dory", 30, "Salada")
+    Dory.hacer_sonido()
 
 
 if __name__ == '__main__':
