@@ -13,3 +13,4 @@ class Mamifero(Animal):
 
     def soy_un(self):
         print(f"Soy un {self.especie}")
+
