@@ -21,9 +21,3 @@ class Guerrero(Personaje):
         def daño(self, enemigo):
             return self.fuerza*self.espada - enemigo.defensa
         
-
-
-        
-guts = Guerrero("Guts", 20, 10, 10, 120, 5)
-guts.atributos()
-print(guts.espada)

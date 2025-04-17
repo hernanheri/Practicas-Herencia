@@ -37,7 +37,3 @@ class Personaje:
             print("La vida de", enemigo.nombre, "es", enemigo.vida)
         else:
             enemigo.morir()
-mi_personaje = Personaje("Doxter",10,1,5,100)
-mi_enemigo = Personaje("Chuck Norris", 50, 50, 50, 500)
-mi_personaje.atacar(mi_enemigo)
-mi_enemigo.atributos()
